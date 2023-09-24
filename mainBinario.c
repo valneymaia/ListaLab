@@ -22,7 +22,7 @@ int main(void)
                 scanf("%d", &n);
 
                 if (n < 0) {
-                    printf("O numero decimal não pode ser negativo.\n");
+                    printf("O numero decimal nÃ£o pode ser negativo.\n");
                 } else {
                     decimal_para_binario(&pilha, n);
                     printf("em binario: ");
@@ -52,6 +52,6 @@ int main(void)
 
 
 
-/* Faça um programa em C que recebe como entrada um número inteiro no sistema decimal
- e retorna ao usuário a representação desse número em binário. Para esse programa, utilize uma pilha
-(estática ou dinâmica) como estrutura de dados para armazenar os 0s e 1s na conversão do número.*/
+/* FaÃ§a um programa em C que recebe como entrada um nÃºmero inteiro no sistema decimal
+ e retorna ao usuÃ¡rio a representaÃ§Ã£o desse nÃºmero em binÃ¡rio. Para esse programa, utilize uma pilha
+(estÃ¡tica ou dinÃ¢mica) como estrutura de dados para armazenar os 0s e 1s na conversÃ£o do nÃºmero.*/
