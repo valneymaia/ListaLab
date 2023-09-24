@@ -24,7 +24,7 @@ int main() {
         printf("Informe o nome da pessoa: ");
         scanf("%s", nome);
 
-        // Gera uma senha aleatória entre 1 e 100
+        // Gera uma senha aleatÃ³ria entre 1 e 100
         int senhaAleatoria = gerarSenhaAleatoria(1, 100);
 
         Pessoa pessoa;
@@ -39,7 +39,7 @@ int main() {
             printf("Senha gerada para %s: %d\n", pessoa.nome, pessoa.senha);
         }
     }
-    printf("\nPares formados para a dinâmica:\n");
+    printf("\nPares formados para a dinÃ¢mica:\n");
 
     while (!vazia(fila_pares) && !vazia(fila_impares)) {
         Pessoa pessoa_par, pessoa_impar;
